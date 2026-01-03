@@ -67,6 +67,7 @@ public:
 		makeEmpty(t->left);
 		makeEmpty(t->right);
 		delete t;
+		t = nullptr;
 	}
 
 	// Chen mot nut val1 moi vao cay (viet theo kieu de quy).
